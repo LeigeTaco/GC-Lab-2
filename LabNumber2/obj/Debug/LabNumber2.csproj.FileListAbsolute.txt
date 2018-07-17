@@ -1,0 +1,7 @@
+C:\Users\ashke\source\repos\LabNumber2\LabNumber2\bin\Debug\LabNumber2.exe.config
+C:\Users\ashke\source\repos\LabNumber2\LabNumber2\bin\Debug\LabNumber2.exe
+C:\Users\ashke\source\repos\LabNumber2\LabNumber2\bin\Debug\LabNumber2.pdb
+C:\Users\ashke\source\repos\LabNumber2\LabNumber2\obj\Debug\LabNumber2.csprojAssemblyReference.cache
+C:\Users\ashke\source\repos\LabNumber2\LabNumber2\obj\Debug\LabNumber2.csproj.CoreCompileInputs.cache
+C:\Users\ashke\source\repos\LabNumber2\LabNumber2\obj\Debug\LabNumber2.exe
+C:\Users\ashke\source\repos\LabNumber2\LabNumber2\obj\Debug\LabNumber2.pdb
