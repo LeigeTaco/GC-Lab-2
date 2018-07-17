@@ -72,7 +72,7 @@ namespace LabNumber2
 
                 moveOn = char.Parse(Console.ReadLine());
 
-                if((moveOn == 'Y') || (moveOn == 'y'))
+                if(Char.ToLower(moveOn) == 'y')
                 {
 
                     Console.WriteLine($"Perimeter: {PerimeterCalc(length, width)}");
@@ -82,7 +82,7 @@ namespace LabNumber2
                     Console.WriteLine("Calculate another classroom? (Y/N)");
                     again = char.Parse(Console.ReadLine());
 
-                    if ((again == 'Y') || (again == 'y'))
+                    if (Char.ToLower(again) == 'y')
                     {
 
                         Console.WriteLine("Excellent, restarting...");
@@ -90,7 +90,7 @@ namespace LabNumber2
 
                     }
 
-                    else if ((again == 'N') || (again == 'n'))
+                    else if (Char.ToLower(again) == 'n')
                     {
 
                         Console.WriteLine("Thank you for using this program.");
@@ -100,13 +100,13 @@ namespace LabNumber2
 
                 }
 
-                else if ((moveOn == 'N') || (moveOn == 'n'))
+                else if (Char.ToLower(moveOn) == 'n')
                 {
 
                     Console.WriteLine("Calculate with different parameters? (Y/N)");
                     again = char.Parse(Console.ReadLine());
 
-                    if ((again == 'Y') || (again == 'y'))
+                    if (Char.ToLower(again) == 'y')
                     {
 
                         Console.WriteLine("Excellent, resetting...");
@@ -114,7 +114,7 @@ namespace LabNumber2
 
                     }
 
-                    else if ((again == 'N') || (again == 'n'))
+                    else if (Char.ToLower(again) == 'n')
                     {
 
                         Console.WriteLine("Thank you for your time.");
